@@ -37,7 +37,7 @@
   },
   "private": true,
   "scripts": {
-    "install": "cd node_modules/paellaplayer && npm install && npm run build && rm -rfd $(ls -a -I '.' -I '..' -I 'build' -I 'package.json' -I 'README.md')",
+    "install": "cd node_modules/paellaplayer && npm install -D && npm run build && rm -rfd $(ls -a -I '.' -I '..' -I 'build' -I 'package.json' -I 'README.md')",
     "build": "yarn run grunt release"
   }
 }
